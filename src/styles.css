@@ -79,8 +79,9 @@ header a {
   padding: 80px;
 }
 
-img {
+.image-first {
   max-width: 100%;
+  display: block;
 }
 
 .grid-3-columns {
@@ -168,6 +169,14 @@ footer a {
     padding: 60px 0;
   }
 
+  section {
+    padding: 30px;
+  }
+
+  .first-part {
+    padding: 30px;
+  }
+
   header h1 {
     font-size: 45px;
   }
@@ -186,8 +195,9 @@ footer a {
     letter-spacing: 1px;
     padding: 10px 20px;
   }
-  .img {
-    margin-top: 0;
+
+  .image-first {
+    max-width: 90%;
   }
   .first-part h3 {
     font-size: 20px;
